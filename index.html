@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#101018">
+  <title>DanzJB | Official Links</title>
+  <style>
+    :root { --bg:#0b0b12; --panel:#151521; --text:#f7f7fb; --muted:#a9a9bc; --accent:#a855f7; --green:#25d366; }
+    * { box-sizing:border-box; }
+    body {
+      margin:0; min-height:100vh; display:grid; place-items:center; padding:24px;
+      font-family:Arial, Helvetica, sans-serif; color:var(--text);
+      background:radial-gradient(circle at 50% 0%, #3a1762 0, transparent 42%), var(--bg);
+    }
+    .card {
+      width:min(100%, 440px); padding:32px 24px; text-align:center; border-radius:26px;
+      background:rgba(21,21,33,.94); border:1px solid rgba(255,255,255,.1);
+      box-shadow:0 20px 70px rgba(0,0,0,.45);
+    }
+    .avatar {
+      width:92px; height:92px; margin:0 auto 18px; display:grid; place-items:center;
+      border-radius:50%; font-size:30px; font-weight:900; letter-spacing:1px;
+      background:linear-gradient(135deg,#d946ef,#7c3aed); border:3px solid #ffffff22;
+      box-shadow:0 0 35px #a855f755;
+    }
+    .badge { display:inline-block; padding:6px 11px; border-radius:99px; background:#a855f722; color:#d8b4fe; font-size:11px; font-weight:bold; letter-spacing:2px; }
+    h1 { margin:14px 0 8px; font-size:34px; }
+    p { color:var(--muted); line-height:1.6; margin:0 auto 24px; max-width:300px; font-size:14px; }
+    .links { display:grid; gap:12px; }
+    .btn {
+      display:flex; align-items:center; justify-content:center; gap:10px; width:100%;
+      padding:16px 18px; border-radius:14px; text-decoration:none; font-weight:800;
+      transition:transform .18s, filter .18s; border:1px solid transparent;
+    }
+    .btn:hover { transform:translateY(-2px); filter:brightness(1.08); }
+    .channel { background:linear-gradient(135deg,#a855f7,#6d28d9); color:white; }
+    .whatsapp { background:var(--green); color:#062b13; }
+    .icon { font-size:21px; }
+    .note { margin:22px 0 0; font-size:11px; color:#77778e; }
+    footer { margin-top:24px; font-size:12px; color:#77778e; }
+    footer span { color:#d8b4fe; }
+  </style>
+</head>
+<body>
+  <main class="card">
+    <div class="avatar">DJ</div>
+    <span class="badge">OFFICIAL LINKS</span>
+    <h1>DanzJB</h1>
+    <p>Selamat datang di halaman resmi DanzJB. Pilih tombol di bawah untuk bergabung ke channel atau menghubungi WhatsApp.</p>
+    <div class="links">
+      <a class="btn channel" href="https://whatsapp.com/channel/0029VbD1GT465yD7CvtplS27" target="_blank" rel="noopener noreferrer">
+        <span class="icon">📢</span> Gabung Channel WhatsApp
+      </a>
+      <a class="btn whatsapp" href="https://wa.me/6283164669533" target="_blank" rel="noopener noreferrer">
+        <span class="icon">💬</span> Chat WhatsApp DanzJB
+      </a>
+    </div>
+    <div class="note">Klik tombol untuk membuka WhatsApp.</div>
+    <footer>© 2026 <span>DanzJB</span> · All rights reserved</footer>
+  </main>
+</body>
+</html>
